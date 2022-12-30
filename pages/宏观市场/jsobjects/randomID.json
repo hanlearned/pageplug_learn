@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "randomID",
+    "pageId": "宏观市场",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\trandomSalesID: () => {\n    return Math.ceil(Math.random() * (9999 -  + 1)) + 1;\n},\n\trandomCustomerID: () => {\n    return Math.ceil(Math.random() * (99999 -  + 1)) + 1;\n} \n\t}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "宏观市场_randomID",
+  "deleted": false,
+  "gitSyncId": "63a50f720415745817f0d311_63aaba490415745817f0d420"
+}

@@ -1,0 +1,37 @@
+{
+  "pages": [
+    {
+      "id": "宏观市场",
+      "isDefault": false
+    },
+    {
+      "id": "Echarts 学习",
+      "isDefault": true
+    },
+    {
+      "id": "上传记录",
+      "isDefault": false
+    },
+    {
+      "id": "图表联动",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "62b334e22ff7e42f71a2a124",
+  "color": "#FBF4ED",
+  "icon": "bitcoin",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "viewerLayout": "{\"color\":\"#2CBBA6\",\"logoUrl\":\"\",\"name\":\"财富引擎\",\"treeData\":[{\"title\":\"学习专栏\",\"expanded\":true,\"children\":[{\"title\":\"Echarts 学习\",\"pageId\":\"63abe0fea0af9367d66f7744\",\"isPage\":true},{\"title\":\"上传记录\",\"pageId\":\"63abe0fea0af9367d66f7748\",\"isPage\":true},{\"title\":\"图表联动\",\"pageId\":\"63abfeaea0af9367d66f77ba\",\"isPage\":true}]},{\"title\":\"测试专栏\",\"expanded\":true,\"children\":[{\"title\":\"宏观市场\",\"pageId\":\"63abe0fea0af9367d66f7746\",\"isPage\":true}]}],\"outsiderTree\":[]}",
+  "deleted": false
+}

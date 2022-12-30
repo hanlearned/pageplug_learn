@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "AreaChart",
+    "pageId": "Echarts 学习",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tchartData: () => {\n\t\t//write code here\n\t\treturn {\n\t\t\t\"title\": {\n\t\t\t\t\"text\": \"Stacked Area Chart\"\n\t\t\t},\n\t\t\t\"tooltip\": {\n\t\t\t\t\"trigger\": \"axis\",\n\t\t\t\t\"axisPointer\": {\n\t\t\t\t\t\"type\": \"cross\",\n\t\t\t\t\t\"label\": {\n\t\t\t\t\t\t\"backgroundColor\": \"#6a7985\"\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"legend\": {\n\t\t\t\t\"data\": [\n\t\t\t\t\t\"Email\",\n\t\t\t\t\t\"Union Ads\",\n\t\t\t\t\t\"Video Ads\",\n\t\t\t\t\t\"Direct\",\n\t\t\t\t\t\"Search Engine\"\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"toolbox\": {\n\t\t\t\t\"feature\": {\n\t\t\t\t\t\"saveAsImage\": {}\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"grid\": {\n\t\t\t\t\"left\": \"3%\",\n\t\t\t\t\"right\": \"4%\",\n\t\t\t\t\"bottom\": \"3%\",\n\t\t\t\t\"containLabel\": true\n\t\t\t},\n\t\t\t\"xAxis\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"category\",\n\t\t\t\t\t\"boundaryGap\": false,\n\t\t\t\t\t\"data\": [\n\t\t\t\t\t\t\"Mon\",\n\t\t\t\t\t\t\"Tue\",\n\t\t\t\t\t\t\"Wed\",\n\t\t\t\t\t\t\"Thu\",\n\t\t\t\t\t\t\"Fri\",\n\t\t\t\t\t\t\"Sat\",\n\t\t\t\t\t\t\"Sun\"\n\t\t\t\t\t]\n\t\t\t\t}\n\t\t\t],\n\t\t\t\"yAxis\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"value\"\n\t\t\t\t}\n\t\t\t],\n\t\t\t\"series\": [\n\t\t\t\t{\n\t\t\t\t\t\"name\": \"Email\",\n\t\t\t\t\t\"type\": \"line\",\n\t\t\t\t\t\"stack\": \"Total\",\n\t\t\t\t\t\"areaStyle\": {},\n\t\t\t\t\t\"emphasis\": {\n\t\t\t\t\t\t\"focus\": \"series\"\n\t\t\t\t\t},\n\t\t\t\t\t\"data\": [\n\t\t\t\t\t\t120,\n\t\t\t\t\t\t132,\n\t\t\t\t\t\t101,\n\t\t\t\t\t\t134,\n\t\t\t\t\t\t90,\n\t\t\t\t\t\t230,\n\t\t\t\t\t\t210\n\t\t\t\t\t]\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"name\": \"Union Ads\",\n\t\t\t\t\t\"type\": \"line\",\n\t\t\t\t\t\"stack\": \"Total\",\n\t\t\t\t\t\"areaStyle\": {},\n\t\t\t\t\t\"emphasis\": {\n\t\t\t\t\t\t\"focus\": \"series\"\n\t\t\t\t\t},\n\t\t\t\t\t\"data\": [\n\t\t\t\t\t\t220,\n\t\t\t\t\t\t182,\n\t\t\t\t\t\t191,\n\t\t\t\t\t\t234,\n\t\t\t\t\t\t290,\n\t\t\t\t\t\t330,\n\t\t\t\t\t\t310\n\t\t\t\t\t]\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"name\": \"Video Ads\",\n\t\t\t\t\t\"type\": \"line\",\n\t\t\t\t\t\"stack\": \"Total\",\n\t\t\t\t\t\"areaStyle\": {},\n\t\t\t\t\t\"emphasis\": {\n\t\t\t\t\t\t\"focus\": \"series\"\n\t\t\t\t\t},\n\t\t\t\t\t\"data\": [\n\t\t\t\t\t\t150,\n\t\t\t\t\t\t232,\n\t\t\t\t\t\t201,\n\t\t\t\t\t\t154,\n\t\t\t\t\t\t190,\n\t\t\t\t\t\t330,\n\t\t\t\t\t\t410\n\t\t\t\t\t]\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"name\": \"Direct\",\n\t\t\t\t\t\"type\": \"line\",\n\t\t\t\t\t\"stack\": \"Total\",\n\t\t\t\t\t\"areaStyle\": {},\n\t\t\t\t\t\"emphasis\": {\n\t\t\t\t\t\t\"focus\": \"series\"\n\t\t\t\t\t},\n\t\t\t\t\t\"data\": [\n\t\t\t\t\t\t320,\n\t\t\t\t\t\t332,\n\t\t\t\t\t\t301,\n\t\t\t\t\t\t334,\n\t\t\t\t\t\t390,\n\t\t\t\t\t\t330,\n\t\t\t\t\t\t320\n\t\t\t\t\t]\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"name\": \"Search Engine\",\n\t\t\t\t\t\"type\": \"line\",\n\t\t\t\t\t\"stack\": \"Total\",\n\t\t\t\t\t\"label\": {\n\t\t\t\t\t\t\"show\": true,\n\t\t\t\t\t\t\"position\": \"top\"\n\t\t\t\t\t},\n\t\t\t\t\t\"areaStyle\": {},\n\t\t\t\t\t\"emphasis\": {\n\t\t\t\t\t\t\"focus\": \"series\"\n\t\t\t\t\t},\n\t\t\t\t\t\"data\": [\n\t\t\t\t\t\t820,\n\t\t\t\t\t\t932,\n\t\t\t\t\t\t901,\n\t\t\t\t\t\t934,\n\t\t\t\t\t\t1290,\n\t\t\t\t\t\t1330,\n\t\t\t\t\t\t1320\n\t\t\t\t\t]\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Echarts 学习_AreaChart",
+  "deleted": false,
+  "gitSyncId": "63a50f720415745817f0d311_63aa45f30415745817f0d382"
+}

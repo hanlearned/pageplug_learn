@@ -1,0 +1,758 @@
+{
+  "unpublishedPage": {
+    "name": "Echarts 学习",
+    "slug": "echarts",
+    "customSlug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1160,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 2450,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 70,
+          "minHeight": 740,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "title",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "fontSize"
+                }
+              ],
+              "topRow": 1,
+              "bottomRow": 6,
+              "parentRowSpace": 40,
+              "type": "TEXT_WIDGET",
+              "parentColumnSpace": 74,
+              "dynamicTriggerPathList": [],
+              "overflow": "NONE",
+              "fontFamily": "System Default",
+              "leftColumn": 0,
+              "dynamicBindingPathList": [],
+              "text": "测试数据",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 8,
+              "textAlign": "LEFT",
+              "dynamicHeight": "FIXED",
+              "widgetId": "uhe8hpkvld",
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "version": 1,
+              "textColor": "#231F20",
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "fontSize": "1.5rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "widgetName": "echarts_test_01",
+              "allowScroll": false,
+              "displayName": "Echarts",
+              "iconSVG": "/static/media/icon.d639d74ea3f095d6be69c6db4b415df6.svg",
+              "searchTags": [
+                "graph",
+                "echart",
+                "chart",
+                "visualisations"
+              ],
+              "topRow": 6,
+              "bottomRow": 44,
+              "parentRowSpace": 10,
+              "customEchartConfig": {
+                "title": {
+                  "text": "基础折线图"
+                },
+                "xAxis": {
+                  "type": "category",
+                  "data": [
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat",
+                    "Sun"
+                  ]
+                },
+                "yAxis": {
+                  "type": "value"
+                },
+                "series": [
+                  {
+                    "data": [
+                      150,
+                      230,
+                      224,
+                      218,
+                      135,
+                      147,
+                      260
+                    ],
+                    "type": "line"
+                  }
+                ]
+              },
+              "type": "ECHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "z8huubbq3d": {
+                  "type": "line",
+                  "seriesName": "秋季系列",
+                  "data": "[\n  {\n    \"value\": 335,\n    \"name\": \"衬衫\"\n  },\n  {\n    \"value\": 234,\n    \"name\": \"羊毛衫\"\n  },\n  {\n    \"value\": 1548,\n    \"name\": \"雪纺衫\"\n  },\n  {\n    \"value\": 758,\n    \"name\": \"裤子\"\n  },\n  {\n    \"value\": 358,\n    \"name\": \"高跟鞋\"\n  },\n  {\n    \"value\": 658,\n    \"name\": \"袜子\"\n  }\n]"
+                }
+              },
+              "animateLoading": true,
+              "parentColumnSpace": 11.890625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onDataPointClick"
+                }
+              ],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [],
+              "mycustom": 2,
+              "onDataPointClick": "{{AreaChart.myFun1()}}",
+              "key": "1dzg7ship1",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "fhszicia3e",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "销量",
+              "chartName": "",
+              "xAxisName": "品类",
+              "chartType": "SCATTER_CHART"
+            },
+            {
+              "widgetName": "area_chart",
+              "allowScroll": false,
+              "displayName": "Echarts",
+              "iconSVG": "/static/media/icon.d639d74ea3f095d6be69c6db4b415df6.svg",
+              "searchTags": [
+                "graph",
+                "echart",
+                "chart",
+                "visualisations"
+              ],
+              "topRow": 44,
+              "bottomRow": 89,
+              "parentRowSpace": 10,
+              "customEchartConfig": "{{AreaChart.chartData()}}",
+              "type": "ECHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "l2x0dlxyxx": {
+                  "type": "line",
+                  "seriesName": "秋季系列",
+                  "data": [
+                    {
+                      "value": 335,
+                      "name": "衬衫"
+                    },
+                    {
+                      "value": 234,
+                      "name": "羊毛衫"
+                    },
+                    {
+                      "value": 1548,
+                      "name": "雪纺衫"
+                    },
+                    {
+                      "value": 758,
+                      "name": "裤子"
+                    },
+                    {
+                      "value": 358,
+                      "name": "高跟鞋"
+                    },
+                    {
+                      "value": 658,
+                      "name": "袜子"
+                    }
+                  ]
+                }
+              },
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "customEchartConfig"
+                }
+              ],
+              "mycustom": 2,
+              "key": "5jsd0e8n30",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "2iqcy9iink",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "销量",
+              "chartName": "",
+              "xAxisName": "品类",
+              "chartType": "CUSTOM_CHART"
+            },
+            {
+              "widgetName": "fan_img",
+              "allowScroll": false,
+              "displayName": "Echarts",
+              "iconSVG": "/static/media/icon.d639d74ea3f095d6be69c6db4b415df6.svg",
+              "searchTags": [
+                "graph",
+                "echart",
+                "chart",
+                "visualisations"
+              ],
+              "topRow": 89,
+              "bottomRow": 141,
+              "parentRowSpace": 10,
+              "customEchartConfig": "{{GAreaChart.charData()}}",
+              "type": "ECHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "fl2kmggs3w": {
+                  "type": "line",
+                  "seriesName": "秋季系列",
+                  "data": "[\n  {\n    \"value\": 335,\n    \"name\": \"衬衫\"\n  },\n  {\n    \"value\": 234,\n    \"name\": \"羊毛衫\"\n  },\n  {\n    \"value\": 1548,\n    \"name\": \"雪纺衫\"\n  },\n  {\n    \"value\": 758,\n    \"name\": \"裤子\"\n  },\n  {\n    \"value\": 358,\n    \"name\": \"高跟鞋\"\n  },\n  {\n    \"value\": 658,\n    \"name\": \"袜子\"\n  }\n]"
+                }
+              },
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "customEchartConfig"
+                }
+              ],
+              "mycustom": 2,
+              "key": "qbwgl494hb",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "sqvsl9unot",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "销量",
+              "chartName": "扇形统计图",
+              "xAxisName": "品类",
+              "chartType": "CUSTOM_CHART"
+            },
+            {
+              "widgetName": "Bar_3D",
+              "allowScroll": false,
+              "displayName": "Echarts",
+              "iconSVG": "/static/media/icon.d639d74ea3f095d6be69c6db4b415df6.svg",
+              "searchTags": [
+                "graph",
+                "echart",
+                "chart",
+                "visualisations"
+              ],
+              "topRow": 141,
+              "bottomRow": 178,
+              "parentRowSpace": 10,
+              "customEchartConfig": "{{Bar3D.charData()}}",
+              "type": "ECHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "fl2kmggs3w": {
+                  "type": "line",
+                  "seriesName": "秋季系列",
+                  "data": [
+                    {
+                      "value": 335,
+                      "name": "衬衫"
+                    },
+                    {
+                      "value": 234,
+                      "name": "羊毛衫"
+                    },
+                    {
+                      "value": 1548,
+                      "name": "雪纺衫"
+                    },
+                    {
+                      "value": 758,
+                      "name": "裤子"
+                    },
+                    {
+                      "value": 358,
+                      "name": "高跟鞋"
+                    },
+                    {
+                      "value": 658,
+                      "name": "袜子"
+                    }
+                  ]
+                }
+              },
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "customEchartConfig"
+                }
+              ],
+              "mycustom": 2,
+              "key": "qbwgl494hb",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "klgy6lb8fe",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "销量",
+              "chartName": "",
+              "xAxisName": "品类",
+              "chartType": "CUSTOM_CHART"
+            },
+            {
+              "widgetName": "Echarts1",
+              "allowScroll": false,
+              "displayName": "Echarts",
+              "iconSVG": "/static/media/icon.d639d74ea3f095d6be69c6db4b415df6.svg",
+              "searchTags": [
+                "graph",
+                "echart",
+                "chart",
+                "visualisations"
+              ],
+              "topRow": 179,
+              "bottomRow": 233,
+              "parentRowSpace": 10,
+              "customEchartConfig": "{{air.charData()}}",
+              "type": "ECHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "fkgku09003": {
+                  "type": "line",
+                  "seriesName": "秋季系列",
+                  "data": [
+                    {
+                      "value": 335,
+                      "name": "衬衫"
+                    },
+                    {
+                      "value": 234,
+                      "name": "羊毛衫"
+                    },
+                    {
+                      "value": 1548,
+                      "name": "雪纺衫"
+                    },
+                    {
+                      "value": 758,
+                      "name": "裤子"
+                    },
+                    {
+                      "value": 358,
+                      "name": "高跟鞋"
+                    },
+                    {
+                      "value": 658,
+                      "name": "袜子"
+                    }
+                  ]
+                }
+              },
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "customEchartConfig"
+                }
+              ],
+              "mycustom": 2,
+              "key": "ct8bpugz2q",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "1cufdk1mvz",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "销量",
+              "chartName": "",
+              "xAxisName": "品类",
+              "chartType": "CUSTOM_CHART"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "IconButton1",
+              "onClick": "{{showModal('Modal1')}}",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "图标按钮",
+              "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+              "searchTags": [
+                "click",
+                "submit",
+                "icon button"
+              ],
+              "topRow": 233,
+              "bottomRow": 237,
+              "parentRowSpace": 10,
+              "type": "ICON_BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 61,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "hcfrbzcnpt",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "iconName": "plus",
+              "widgetId": "wru6cozfq9",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Modal1",
+              "isCanvas": true,
+              "displayName": "弹窗",
+              "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
+              "searchTags": [
+                "dialog",
+                "popup",
+                "notification",
+                "modal"
+              ],
+              "topRow": 0,
+              "bottomRow": 24,
+              "parentRowSpace": 1,
+              "type": "MODAL_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "minHeight": 260,
+              "animateLoading": true,
+              "parentColumnSpace": 1,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClose"
+                }
+              ],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 240,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 240,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "IconButton2",
+                      "onClick": "{{closeModal('Modal1')}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "图标按钮",
+                      "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+                      "searchTags": [
+                        "click",
+                        "submit",
+                        "icon button"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 58,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "iconSize": 24,
+                      "isDisabled": false,
+                      "key": "hcfrbzcnpt",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "iconName": "cross",
+                      "widgetId": "znbf7ajngl",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "hzblpnu716",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "TERTIARY"
+                    },
+                    {
+                      "widgetName": "Text1",
+                      "displayName": "文本",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label",
+                        "text",
+                        "文字",
+                        "标题",
+                        "段落",
+                        "字符"
+                      ],
+                      "topRow": 7,
+                      "bottomRow": 11,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 26,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "弹窗_标题",
+                      "key": "oa84tvdh82",
+                      "isDeprecated": false,
+                      "rightColumn": 40,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "ptql4rng3u",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "hzblpnu716",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "originalTopRow": 6,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 10,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "resetFormOnClick": false,
+                      "boxShadow": "none",
+                      "widgetName": "Button1",
+                      "onClick": "{{closeModal('Modal1')}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "按钮",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit",
+                        "button"
+                      ],
+                      "topRow": 18,
+                      "bottomRow": 22,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 31,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "关闭",
+                      "isDisabled": false,
+                      "key": "sbgnv2helt",
+                      "isDeprecated": false,
+                      "rightColumn": 47,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "3lgdpdzrxm",
+                      "buttonStyle": "PRIMARY",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "hzblpnu716",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "resetFormOnClick": false,
+                      "boxShadow": "none",
+                      "widgetName": "Button2",
+                      "onClick": "{{closeModal('Modal1')}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "按钮",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit",
+                        "button"
+                      ],
+                      "topRow": 18,
+                      "bottomRow": 22,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 47,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "确定",
+                      "isDisabled": false,
+                      "key": "sbgnv2helt",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "9slaw1je8m",
+                      "buttonStyle": "PRIMARY_BUTTON",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "hzblpnu716",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "0fb52mvra4",
+                  "isDeprecated": false,
+                  "rightColumn": 0,
+                  "detachFromLayout": true,
+                  "widgetId": "hzblpnu716",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "mj5f54dx01",
+                  "renderMode": "CANVAS",
+                  "isLoading": false
+                }
+              ],
+              "key": "bfamzwi4rb",
+              "height": 260,
+              "isDeprecated": false,
+              "rightColumn": 0,
+              "detachFromLayout": true,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "mj5f54dx01",
+              "canOutsideClickClose": true,
+              "canEscapeKeyClose": true,
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "onClose": "{{closeModal()}}",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "width": 456,
+              "minDynamicHeight": 24
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Echarts 学习",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "62b41f08b72ed502c3e66727_62b41f08b72ed502c3e66729"
+}

@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject",
+    "pageId": "宏观市场",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\t\tsearch: () => {\n\t\tif(Input1Copy.text.length==0){\n\t\t\treturn select_repair_db.data\n\t\t}\n\t\telse{\n\t\t\treturn(select_repair_db.data.filter(word => word.cust_name.toLowerCase().includes(Input1Copy.text.toLowerCase())))\n\t\t}\n\t},\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "宏观市场_JSObject",
+  "deleted": false,
+  "gitSyncId": "63a50f720415745817f0d311_63aaba490415745817f0d426"
+}

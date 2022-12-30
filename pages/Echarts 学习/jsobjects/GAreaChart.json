@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "GAreaChart",
+    "pageId": "Echarts 学习",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tcharData: () => {\n\t\t//write code here\n\t\tvar option = {\n\t\t\t    title: {\n    \t\t\t\ttext: 'Fan'\n \t\t\t\t\t},\n\t\t\t\t\tlegend: {\n\t\t\t\t\t\ttop: 'bottom'\n\t\t\t\t\t},\n\t\t\t\t\ttoolbox: {\n\t\t\t\t\t\tshow: true,\n\t\t\t\t\t\tfeature: {\n\t\t\t\t\t\t\tmark: { show: true },\n\t\t\t\t\t\t\tdataView: { show: true, readOnly: false },\n\t\t\t\t\t\t\trestore: { show: true },\n\t\t\t\t\t\t\tsaveAsImage: { show: true }\n\t\t\t\t\t\t}\n\t\t\t\t\t},\n\t\t\t\t\tseries: [\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tname: 'Nightingale Chart',\n\t\t\t\t\t\t\ttype: 'pie',\n\t\t\t\t\t\t\tradius: [50, 250],\n\t\t\t\t\t\t\tcenter: ['50%', '50%'],\n\t\t\t\t\t\t\troseType: 'area',\n\t\t\t\t\t\t\titemStyle: {\n\t\t\t\t\t\t\t\tborderRadius: 8\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\tdata: [\n\t\t\t\t\t\t\t\t{ value: 40, name: 'rose 1' },\n\t\t\t\t\t\t\t\t{ value: 38, name: 'rose 2' },\n\t\t\t\t\t\t\t\t{ value: 32, name: 'rose 3' },\n\t\t\t\t\t\t\t\t{ value: 30, name: 'rose 4' },\n\t\t\t\t\t\t\t\t{ value: 28, name: 'rose 5' },\n\t\t\t\t\t\t\t\t{ value: 26, name: 'rose 6' },\n\t\t\t\t\t\t\t\t{ value: 22, name: 'rose 7' },\n\t\t\t\t\t\t\t\t{ value: 18, name: 'rose 8' }\n\t\t\t\t\t\t\t]\n\t\t\t\t\t\t}\n\t\t\t\t\t]\n\t\t};\n\t\treturn option\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Echarts 学习_GAreaChart",
+  "deleted": false,
+  "gitSyncId": "63a50f720415745817f0d311_63aa9fda0415745817f0d3d6"
+}

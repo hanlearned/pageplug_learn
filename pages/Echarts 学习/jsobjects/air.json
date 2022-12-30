@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "air",
+    "pageId": "Echarts 学习",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tcharData: () => {\n\t\t//write code here\n\t\tvar option = {\n\t\t\t\"title\": {\n\t\t\t\t\"text\": \"Basic Radar Chart\"\n\t\t\t},\n\t\t\t\"legend\": {\n\t\t\t\t\"data\": [\n\t\t\t\t\t\"Allocated Budget\",\n\t\t\t\t\t\"Actual Spending\"\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"radar\": {\n\t\t\t\t\"indicator\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"name\": \"Sales\",\n\t\t\t\t\t\t\"max\": 6500\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"name\": \"Administration\",\n\t\t\t\t\t\t\"max\": 16000\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"name\": \"Information Technology\",\n\t\t\t\t\t\t\"max\": 30000\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"name\": \"Customer Support\",\n\t\t\t\t\t\t\"max\": 38000\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"name\": \"Development\",\n\t\t\t\t\t\t\"max\": 52000\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"name\": \"Marketing\",\n\t\t\t\t\t\t\"max\": 25000\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"series\": [\n\t\t\t\t{\n\t\t\t\t\t\"name\": \"Budget vs spending\",\n\t\t\t\t\t\"type\": \"radar\",\n\t\t\t\t\t\"data\": [\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"value\": [\n\t\t\t\t\t\t\t\t4200,\n\t\t\t\t\t\t\t\t3000,\n\t\t\t\t\t\t\t\t20000,\n\t\t\t\t\t\t\t\t35000,\n\t\t\t\t\t\t\t\t50000,\n\t\t\t\t\t\t\t\t18000\n\t\t\t\t\t\t\t],\n\t\t\t\t\t\t\t\"name\": \"Allocated Budget\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"value\": [\n\t\t\t\t\t\t\t\t5000,\n\t\t\t\t\t\t\t\t14000,\n\t\t\t\t\t\t\t\t28000,\n\t\t\t\t\t\t\t\t26000,\n\t\t\t\t\t\t\t\t42000,\n\t\t\t\t\t\t\t\t21000\n\t\t\t\t\t\t\t],\n\t\t\t\t\t\t\t\"name\": \"Actual Spending\"\n\t\t\t\t\t\t}\n\t\t\t\t\t]\n\t\t\t\t}\n\t\t\t]\n\t\t};\n\t\treturn option;\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Echarts 学习_air",
+  "deleted": false,
+  "gitSyncId": "63a50f720415745817f0d311_63aaa6070415745817f0d3e4"
+}
