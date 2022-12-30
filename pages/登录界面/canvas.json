@@ -1,0 +1,86 @@
+{
+  "unpublishedPage": {
+    "name": "登录界面",
+    "slug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 600,
+          "containerStyle": "none",
+          "snapRows": 60,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 70,
+          "minHeight": 610,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "schema": "{\"form\":{\"labelCol\":6,\"wrapperCol\":12},\"schema\":{\"type\":\"object\",\"properties\":{\"username\":{\"type\":\"string\",\"title\":\"用户名\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"x-designable-id\":\"6xtcrdj1lzl\",\"x-index\":0,\"name\":\"username\"},\"password\":{\"title\":\"密码\",\"x-decorator\":\"FormItem\",\"x-component\":\"Password\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"x-designable-id\":\"586gkzsrej5\",\"x-index\":1,\"name\":\"password\"}},\"x-designable-id\":\"zf90j6or7lx\"}}",
+              "widgetName": "formily1",
+              "isCanvas": false,
+              "dynamicPropertyPathList": [],
+              "displayName": "Formily表单",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+              "searchTags": [
+                "form",
+                "submit"
+              ],
+              "topRow": 10,
+              "bottomRow": 44,
+              "parentRowSpace": 10,
+              "title": "登录功能",
+              "type": "FORMILY_WIDGET",
+              "triggerLabel": "打开表单",
+              "hideCard": false,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onFormSubmit"
+                }
+              ],
+              "leftColumn": 17,
+              "dynamicBindingPathList": [],
+              "resetLabel": "重置",
+              "showReset": true,
+              "key": "y2fcymz2g1",
+              "submitLabel": "提交",
+              "onFormSubmit": "{{test2.run(() => navigateTo('登录成功', {}, 'SAME_WINDOW'), () => showAlert('error','error'))}}",
+              "formType": "PLAIN",
+              "isDeprecated": false,
+              "rightColumn": 45,
+              "widgetId": "551ju8moes",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "登录界面",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "63ae533aedd9900a0b76d6d2_63aea646edd9900a0b76d70e"
+}

@@ -15,6 +15,14 @@
     {
       "id": "图表联动",
       "isDefault": false
+    },
+    {
+      "id": "登录界面",
+      "isDefault": false
+    },
+    {
+      "id": "登录成功",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -32,6 +40,6 @@
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
-  "viewerLayout": "{\"color\":\"#2CBBA6\",\"logoUrl\":\"\",\"name\":\"财富引擎\",\"treeData\":[{\"title\":\"学习专栏\",\"expanded\":true,\"children\":[{\"title\":\"Echarts 学习\",\"pageId\":\"63abe0fea0af9367d66f7744\",\"isPage\":true},{\"title\":\"上传记录\",\"pageId\":\"63abe0fea0af9367d66f7748\",\"isPage\":true},{\"title\":\"图表联动\",\"pageId\":\"63abfeaea0af9367d66f77ba\",\"isPage\":true}]},{\"title\":\"测试专栏\",\"expanded\":true,\"children\":[{\"title\":\"宏观市场\",\"pageId\":\"63abe0fea0af9367d66f7746\",\"isPage\":true}]}],\"outsiderTree\":[]}",
+  "viewerLayout": "{\"color\":\"#2CBBA6\",\"logoUrl\":\"\",\"name\":\"财富引擎\",\"treeData\":[{\"title\":\"学习专栏\",\"expanded\":true,\"children\":[{\"title\":\"Echarts 学习\",\"pageId\":\"63ae4c00edd9900a0b76d6a6\",\"isPage\":true},{\"title\":\"上传记录\",\"pageId\":\"63ae4c00edd9900a0b76d6a8\",\"isPage\":true},{\"title\":\"图表联动\",\"pageId\":\"63ae4c00edd9900a0b76d6a9\",\"isPage\":true}]},{\"title\":\"测试专栏\",\"expanded\":true,\"children\":[{\"title\":\"宏观市场\",\"pageId\":\"63ae4c00edd9900a0b76d6a7\",\"isPage\":true}]},{\"title\":\"API 学习\",\"expanded\":true,\"children\":[{\"title\":\"登录界面\",\"pageId\":\"63aea646edd9900a0b76d70f\",\"isPage\":true},{\"title\":\"登录成功\",\"pageId\":\"63aeac2bedd9900a0b76d71b\",\"isPage\":true}]}],\"outsiderTree\":[]}",
   "deleted": false
 }
