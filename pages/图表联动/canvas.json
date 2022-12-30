@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 990,
+          "bottomRow": 940,
           "containerStyle": "none",
           "snapRows": 60,
           "parentRowSpace": 1,
@@ -41,8 +41,8 @@
                 "chart",
                 "visualisations"
               ],
-              "topRow": 47,
-              "bottomRow": 91,
+              "topRow": 42,
+              "bottomRow": 86,
               "parentRowSpace": 10,
               "customEchartConfig": "{{GAreaChart.charData()}}",
               "type": "ECHART_WIDGET",
@@ -104,10 +104,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "yAxisName": "销量",
-              "originalTopRow": 44,
+              "originalTopRow": 47,
               "chartName": "",
               "xAxisName": "品类",
-              "originalBottomRow": 88,
+              "originalBottomRow": 91,
               "chartType": "CUSTOM_CHART"
             },
             {
