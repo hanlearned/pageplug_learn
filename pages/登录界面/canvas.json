@@ -55,7 +55,7 @@
               "showReset": true,
               "key": "y2fcymz2g1",
               "submitLabel": "提交",
-              "onFormSubmit": "{{test2.run(() => navigateTo('登录成功', {}, 'SAME_WINDOW'), () => showAlert('error','error'))}}",
+              "onFormSubmit": "{{Login.login()}}",
               "formType": "PLAIN",
               "isDeprecated": false,
               "rightColumn": 45,

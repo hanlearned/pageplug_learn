@@ -275,8 +275,8 @@
                 "chart",
                 "visualisations"
               ],
-              "topRow": 141,
-              "bottomRow": 178,
+              "topRow": 142,
+              "bottomRow": 179,
               "parentRowSpace": 10,
               "customEchartConfig": "{{Bar3D.charData()}}",
               "type": "ECHART_WIDGET",

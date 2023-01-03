@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun2",
-    "fullyQualifiedName": "JSObject1.myFun2",
+    "fullyQualifiedName": "Login.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "登录界面",
-    "collectionId": "登录界面_JSObject1",
+    "collectionId": "登录界面_Login",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "登录界面_JSObject1.myFun2",
+  "id": "登录界面_Login.myFun2",
   "deleted": false,
   "gitSyncId": "63ae533aedd9900a0b76d6d2_63aeaa3eedd9900a0b76d713"
 }

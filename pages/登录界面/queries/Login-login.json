@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "name": "login",
+    "fullyQualifiedName": "Login.login",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,15 +14,15 @@
       "userPermissions": []
     },
     "pageId": "登录界面",
-    "collectionId": "登录界面_JSObject1",
+    "collectionId": "登录界面_Login",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  console.log(formily1.formData);\n}",
+      "body": "() => {\n  var res = test2.run();\n  if (res[\"message\"] == \"login is success\") {\n    navigateTo(\"登录成功\");\n    return true;\n  } else {\n    navigateTo(\"登录成功\");\n    return false;\n  }\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
     "clientSideExecution": true,
@@ -35,14 +35,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  console.log(formily1.formData);\n}"
+      "() => {\n  var res = test2.run();\n  if (res[\"message\"] == \"login is success\") {\n    navigateTo(\"登录成功\");\n    return true;\n  } else {\n    navigateTo(\"登录成功\");\n    return false;\n  }\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "登录界面_JSObject1.myFun1",
+  "id": "登录界面_Login.login",
   "deleted": false,
   "gitSyncId": "63ae533aedd9900a0b76d6d2_63aeaa3eedd9900a0b76d714"
 }
