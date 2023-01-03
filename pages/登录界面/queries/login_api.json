@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "test2",
+    "name": "login_api",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -72,7 +72,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "登录界面_test2",
+  "id": "登录界面_login_api",
   "deleted": false,
   "gitSyncId": "63ae533aedd9900a0b76d6d2_63aea5a7edd9900a0b76d70b"
 }

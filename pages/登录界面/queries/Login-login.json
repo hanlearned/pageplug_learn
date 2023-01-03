@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  test2.run(() => {\n    const sigin = test2.data.status;\n    if (sigin == 'success') {\n      navigateTo(\"登录成功\");\n    } else {\n      showAlert('密码错误');\n    }\n  });\n}",
+      "body": "() => {\n  login_api.run(() => {\n    const sigin = login_api.data.status;\n    if (sigin == 'success') {\n      navigateTo(\"登录成功\");\n    } else {\n      showModal(\"login_error_model\");\n    }\n  });\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  test2.run(() => {\n    const sigin = test2.data.status;\n    if (sigin == 'success') {\n      navigateTo(\"登录成功\");\n    } else {\n      showAlert('密码错误');\n    }\n  });\n}"
+      "() => {\n  login_api.run(() => {\n    const sigin = login_api.data.status;\n    if (sigin == 'success') {\n      navigateTo(\"登录成功\");\n    } else {\n      showModal(\"login_error_model\");\n    }\n  });\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
