@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  var res = test2.run();\n  if (res[\"message\"] == \"login is success\") {\n    navigateTo(\"登录成功\");\n    return true;\n  } else {\n    navigateTo(\"登录成功\");\n    return false;\n  }\n}",
+      "body": "() => {\n  test2.run(() => {\n    const sigin = test2.data.status;\n    if (sigin == 'success') {\n      navigateTo(\"登录成功\");\n    } else {\n      showAlert('密码错误');\n    }\n  });\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  var res = test2.run();\n  if (res[\"message\"] == \"login is success\") {\n    navigateTo(\"登录成功\");\n    return true;\n  } else {\n    navigateTo(\"登录成功\");\n    return false;\n  }\n}"
+      "() => {\n  test2.run(() => {\n    const sigin = test2.data.status;\n    if (sigin == 'success') {\n      navigateTo(\"登录成功\");\n    } else {\n      showAlert('密码错误');\n    }\n  });\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

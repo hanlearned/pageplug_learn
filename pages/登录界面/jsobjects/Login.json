@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tlogin: () => {\n\t\t//write code here\n\t\tvar res = test2.run()\n\t\tif(res[\"message\"]==\"login is success\"){\n\t\t\tnavigateTo(\"登录成功\");\n\t\t\treturn true;\n\t\t}else{\n\t\t\tnavigateTo(\"登录成功\");\n\t\t\treturn false;\n\t\t}\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tlogin: () => {\n\t\t//write code here\n\t\ttest2.run(()=>{\n\t\t\tconst sigin = test2.data.status\n\t\t\tif(sigin=='success'){\n\t\t\t\t\tnavigateTo(\"登录成功\");\n\t\t\t}else{\n\t\t\t\tshowAlert('密码错误')\n\t\t\t}\n\t\t});\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",

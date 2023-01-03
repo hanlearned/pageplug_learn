@@ -20,10 +20,24 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/",
-      "headers": [],
+      "path": "/login/",
+      "headers": [
+        {
+          "key": "",
+          "value": "admin"
+        }
+      ],
       "encodeParamsToggle": true,
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "name",
+          "value": "admin"
+        },
+        {
+          "key": "password",
+          "value": "admin"
+        }
+      ],
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
