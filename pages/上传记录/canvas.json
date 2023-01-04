@@ -2,6 +2,7 @@
   "unpublishedPage": {
     "name": "上传记录",
     "slug": "",
+    "customSlug": "",
     "layouts": [
       {
         "viewMode": false,

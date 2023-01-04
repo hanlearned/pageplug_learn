@@ -1,12 +1,12 @@
 {
   "pages": [
     {
-      "id": "宏观市场",
-      "isDefault": false
-    },
-    {
       "id": "Echarts 学习",
       "isDefault": true
+    },
+    {
+      "id": "宏观市场",
+      "isDefault": false
     },
     {
       "id": "上传记录",
