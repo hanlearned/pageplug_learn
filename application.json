@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Echarts 学习",
+      "id": "Echart 学习",
       "isDefault": true
     },
     {
@@ -23,14 +23,18 @@
     {
       "id": "登录成功",
       "isDefault": false
+    },
+    {
+      "id": "测试主页",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "clonedFromApplicationId": "62b334e22ff7e42f71a2a124",
-  "color": "#FBF4ED",
-  "icon": "bitcoin",
+  "color": "#C7F3F0",
+  "icon": "bag",
   "unpublishedAppLayout": {
     "type": "FLUID"
   },

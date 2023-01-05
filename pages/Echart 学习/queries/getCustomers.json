@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "updateCustomerInfo",
+    "name": "getCustomers",
     "datasource": {
       "name": "Users",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Echarts 学习",
+    "pageId": "Echart 学习",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE users SET name = '{{NameInput.text}}', email = '{{EmailInput.text}}', country = '{{CountryInput.text}}' WHERE id = {{CustomersTable.selectedRow.id}}",
+      "body": "SELECT * FROM users ORDER BY id LIMIT 30;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -31,18 +31,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "CountryInput.text",
-      "CustomersTable.selectedRow.id",
-      "EmailInput.text",
-      "NameInput.text"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Echarts 学习_updateCustomerInfo",
+  "id": "Echart 学习_getCustomers",
   "deleted": false,
-  "gitSyncId": "62b41f08b72ed502c3e66727_62b41f08b72ed502c3e6672c"
+  "gitSyncId": "62b41f08b72ed502c3e66727_62b41f08b72ed502c3e6672b"
 }

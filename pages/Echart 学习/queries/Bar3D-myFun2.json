@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun2",
-    "fullyQualifiedName": "GAreaChart.myFun2",
+    "fullyQualifiedName": "Bar3D.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Echarts 学习",
-    "collectionId": "Echarts 学习_GAreaChart",
+    "pageId": "Echart 学习",
+    "collectionId": "Echart 学习_Bar3D",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Echarts 学习_GAreaChart.myFun2",
+  "id": "Echart 学习_Bar3D.myFun2",
   "deleted": false,
-  "gitSyncId": "63a50f720415745817f0d311_63aa9fda0415745817f0d3d3"
+  "gitSyncId": "63a50f720415745817f0d311_63aaa32a0415745817f0d3d8"
 }

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Echarts 学习",
-    "slug": "echarts",
+    "name": "Echart 学习",
+    "slug": "echart",
     "customSlug": "",
     "layouts": [
       {
@@ -743,7 +743,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Echarts 学习",
+        "id": "Echart 学习",
         "deleted": false,
         "policies": [],
         "userPermissions": []

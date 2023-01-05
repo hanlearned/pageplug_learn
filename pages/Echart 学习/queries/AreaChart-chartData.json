@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Echarts 学习",
-    "collectionId": "Echarts 学习_AreaChart",
+    "pageId": "Echart 学习",
+    "collectionId": "Echart 学习_AreaChart",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -41,7 +41,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Echarts 学习_AreaChart.chartData",
+  "id": "Echart 学习_AreaChart.chartData",
   "deleted": false,
   "gitSyncId": "63a50f720415745817f0d311_63aa9a1b0415745817f0d3ce"
 }

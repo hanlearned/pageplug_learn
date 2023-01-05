@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query5",
+    "name": "user",
     "datasource": {
       "name": "Users",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Echarts 学习",
+    "pageId": "图表联动",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM public.\"users\" LIMIT 10;",
+      "body": "SELECT country as country , count(country) as count from public.users where country != '' group by (country) ;\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -37,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Echarts 学习_Query5",
+  "id": "图表联动_user",
   "deleted": false,
-  "gitSyncId": "63a50f720415745817f0d311_63a917220415745817f0d36d"
+  "gitSyncId": "63b4e0c2edd9900a0b76d86c_63b6266fedd9900a0b76d8fd"
 }

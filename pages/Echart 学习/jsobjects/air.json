@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "air",
-    "pageId": "Echarts 学习",
+    "pageId": "Echart 学习",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -19,7 +19,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Echarts 学习_air",
+  "id": "Echart 学习_air",
   "deleted": false,
   "gitSyncId": "63a50f720415745817f0d311_63aaa6070415745817f0d3e4"
 }

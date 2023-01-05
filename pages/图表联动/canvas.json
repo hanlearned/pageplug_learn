@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 940,
+          "bottomRow": 1300,
           "containerStyle": "none",
           "snapRows": 60,
           "parentRowSpace": 1,
@@ -41,8 +41,8 @@
                 "chart",
                 "visualisations"
               ],
-              "topRow": 42,
-              "bottomRow": 86,
+              "topRow": 122,
+              "bottomRow": 165,
               "parentRowSpace": 10,
               "customEchartConfig": "{{GAreaChart.charData()}}",
               "type": "ECHART_WIDGET",
@@ -104,10 +104,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "yAxisName": "销量",
-              "originalTopRow": 47,
+              "originalTopRow": 42,
               "chartName": "",
               "xAxisName": "品类",
-              "originalBottomRow": 91,
+              "originalBottomRow": 85,
               "chartType": "CUSTOM_CHART"
             },
             {
@@ -429,10 +429,10 @@
                   "key": "tableData"
                 },
                 {
-                  "key": "primaryColumns.name.computedValue"
+                  "key": "primaryColumns.country.computedValue"
                 },
                 {
-                  "key": "primaryColumns.value.computedValue"
+                  "key": "primaryColumns.count.computedValue"
                 }
               ],
               "leftColumn": 2,
@@ -477,8 +477,8 @@
               "widgetName": "Table1",
               "defaultPageSize": 0,
               "columnOrder": [
-                "name",
-                "value"
+                "country",
+                "count"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "表格",
@@ -486,12 +486,13 @@
                 "datagrid",
                 "table"
               ],
-              "bottomRow": 40,
+              "bottomRow": 122,
               "columnWidthMap": {
                 "task": 245,
                 "step": 62,
                 "status": 75,
-                "name": 462
+                "name": 462,
+                "country": 384
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -503,13 +504,13 @@
               ],
               "borderWidth": "1",
               "primaryColumns": {
-                "name": {
+                "country": {
                   "allowCellWrapping": false,
                   "index": 0,
                   "width": 150,
-                  "originalId": "name",
-                  "id": "name",
-                  "alias": "name",
+                  "originalId": "country",
+                  "id": "country",
+                  "alias": "country",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
@@ -524,20 +525,20 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "name",
+                  "label": "country",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"country\"]))}}",
                   "validation": {},
                   "cellBackground": ""
                 },
-                "value": {
+                "count": {
                   "allowCellWrapping": false,
                   "index": 1,
                   "width": 150,
-                  "originalId": "value",
-                  "id": "value",
-                  "alias": "value",
+                  "originalId": "count",
+                  "id": "count",
+                  "alias": "count",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "number",
@@ -552,10 +553,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "value",
+                  "label": "count",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"value\"]))}}",
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"count\"]))}}",
                   "validation": {},
                   "cellBackground": ""
                 }
@@ -566,7 +567,7 @@
               "rightColumn": 63,
               "textSize": "0.875rem",
               "widgetId": "m9qymg130a",
-              "tableData": "{{descriptor_case.data}}",
+              "tableData": "{{user.data}}",
               "label": "数据",
               "searchKey": "",
               "parentId": "0",
@@ -641,8 +642,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "图表联动_descriptor_case",
-              "name": "descriptor_case",
+              "id": "图表联动_user",
+              "name": "user",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
