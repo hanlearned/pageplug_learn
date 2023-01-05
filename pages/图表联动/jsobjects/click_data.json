@@ -1,12 +1,12 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject1",
+    "name": "click_data",
     "pageId": "图表联动",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t// write code here\n\t  storeValue(\"case_data\", )\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t// write code here\n\t  storeValue(\"case_data\", )\n\t},\n\tclick_data: async () => {\n\t\tstoreValue('echart_data', Echarts1.selectedDataItem.data)\n\t\tconsole.log(global.store.echart_data)\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",
@@ -19,7 +19,7 @@
     ],
     "userPermissions": []
   },
-  "id": "图表联动_JSObject1",
+  "id": "图表联动_click_data",
   "deleted": false,
   "gitSyncId": "63abe0fea0af9367d66f773e_63ac0c1fa0af9367d66f77cb"
 }
