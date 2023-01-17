@@ -1,0 +1,86 @@
+{
+  "unpublishedPage": {
+    "name": "笔记",
+    "slug": "",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 630,
+          "containerStyle": "none",
+          "snapRows": 54,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 70,
+          "minHeight": 550,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Iframe1",
+              "srcDoc": "<link rel=\"stylesheet\" href=\"//unpkg.com/layui@2.6.8/dist/css/layui.css\">\n\n<ul class=\"layui-nav layui-nav-tree\" lay-filter=\"test\">\n<!-- 侧边导航: <ul class=\"layui-nav layui-nav-tree layui-nav-side\"> -->\n  <li class=\"layui-nav-item layui-nav-itemed\">\n    <a href=\"javascript:;\">默认展开</a>\n    <dl class=\"layui-nav-child\">\n      <dd><a href=\"javascript:;\">选项1</a></dd>\n      <dd><a href=\"javascript:;\">选项2</a></dd>\n      <dd><a href=\"\">跳转</a></dd>\n    </dl>\n  </li>\n  <li class=\"layui-nav-item\">\n    <a href=\"javascript:;\">解决方案</a>\n    <dl class=\"layui-nav-child\">\n      <dd><a href=\"\">移动模块</a></dd>\n      <dd><a href=\"\">后台模版</a></dd>\n      <dd><a href=\"\">电商平台</a></dd>\n    </dl>\n  </li>\n  <li class=\"layui-nav-item\"><a href=\"\">产品</a></li>\n  <li class=\"layui-nav-item\"><a href=\"\">大数据</a></li>\n</ul>",
+              "displayName": "Iframe",
+              "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+              "searchTags": [
+                "embed",
+                "html"
+              ],
+              "topRow": 3,
+              "bottomRow": 55,
+              "parentRowSpace": 10,
+              "source": "",
+              "type": "IFRAME_WIDGET",
+              "hideCard": false,
+              "borderOpacity": 100,
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 8,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "borderWidth": 1,
+              "key": "qr8rrq7qud",
+              "isDeprecated": false,
+              "rightColumn": 15,
+              "widgetId": "3zwdo86v6m",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "笔记",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "63b4e0c2edd9900a0b76d86c_63b69758edd9900a0b76d921"
+}
